@@ -1,0 +1,19 @@
+/* FLEXBOX*/
+.sec1{
+    display: flex;
+    justify-content: center;
+    background-color: wheat;
+    justify-content: space-between;
+    border: 20%;
+    padding: 5%;
+}
+
+.sec2{
+display: flex;
+justify-content: center;
+justify-content: space-around
+img{
+    width: 20px;
+    height: 30px
+}
+}

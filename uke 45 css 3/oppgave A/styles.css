@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Start med disse grunnleggende stilene */
+
+.header {
+    background-color: #4CAF50;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.nav {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    padding: 20px;
+    flex: 1;
+}
+
+.main-content {
+    background-color: #f1f1f1;
+    padding: 20px;
+    flex: 2;
+}
+
+.sidebar {
+    background-color: #ddd;
+    padding: 20px;
+    flex: 2;
+}
+
+.footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

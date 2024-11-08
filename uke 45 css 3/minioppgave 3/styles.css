@@ -1,0 +1,15 @@
+/*Flexbox*/
+.sec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/*flex-item*/
+#tittle1{
+    color: white;
+    font-size: 3.25rem;
+}
